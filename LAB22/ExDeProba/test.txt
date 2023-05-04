@@ -1,0 +1,11 @@
+zona - etc/passwd
+username:x:UID:GID:userdata:home directory:login shell
+Olaru:x:2929:3883:data:HOME:LOGIN
+Marius:x:2929:3883:data:HOME:LOGIN
+Alexandru:x:2929:3883:data:HOME:LOGIN
+
+zona - etc/group
+groupname:x:GID:lisfy of users
+Olaru:x:2929:none
+Marius:x:2929:none
+MJ:x:2929:none

@@ -1,0 +1,3 @@
+#!/bin/bash
+cat Test.txt | grep -o ab
+cat Test.txt | grep -o ab | wc -w 

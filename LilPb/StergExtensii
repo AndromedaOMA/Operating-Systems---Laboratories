@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm *.123
+
+rm -rf file?*.sh

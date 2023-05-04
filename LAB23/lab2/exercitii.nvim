@@ -1,0 +1,51 @@
+I)
+a)
+    1.  sort -t : -k 3 -r /etc/group
+    2. find ~ -type f -mtime -7 -printf "File: %p, \n Modified: %t, \n Permission: %M\n"
+    3. find . -perm /a+x -printf "File: %p, \n Access: %a, \n Size: %k KB \n"
+
+b)
+	1. find . -type d,f -perm /a+x -perm /a+r -printf "File: %p, \n Access: %a \n"
+	-----------------------------------------------------------------------------------------
+	
+	Laborator #1 
+
+3. [cut #2]
+	cut -f1,3 -d":" --output-delimiter "-" /etc/group
+
+4. [grep #2]
+	grep :x:*:0: /etc/passwd | cut -f5,6,7 -d":"
+
+5. [stat #1]
+    stat --print="%h\n" filename 
+
+Laborator #2
+(a)
+1. [sort #3]
+	sort -n -r -t: -k3 /etc/group > output.txt
+
+2. [find #3]
+	find /fenrir/studs/vlad.opris -ctime 6 -type f -printf "%p : %M : %t\n"
+
+3. [find #4]
+	find /fenrir/studs/vlad.opris -executable -printf "%p : %t : %k KB\n"
+	find /fenrir/studs/vlad.opris -perm /u+x -printf "%p : %t : %k KB\n"
+
+(b)
+1. [find #5]
+	find /fenrir/studs/vlad.opris -perm /u+r+x -printf "%p : %M\n"
+
+2. [find #6]
+    find . -type f -name "*.c" -o -name "*.cpp" -o -name "*.h" -printf "%p | %AD | %s bytes\n"
+
+3. [find #7]
+    find . -name "*.cpp" -size -5k -exec g++ 2>> errors.txt {} +
+
+4. [find #8]
+    find . -type f -name "*.html" -o -name "*.css" -printf "%p | %k KB | %AD\n"
+
+5. [find #9]
+    find . \( -name "*~" -o -name "*.bak" \) -exec rm {} +
+
+6. [find #10]
+    find -L . -samefile filename

@@ -1,0 +1,69 @@
+LAB23:
+  
+  PART I:
+
+  lab4:
+  set1ex1: - 1^3 + 2^3 + ... + n^3.
+  set1ex2: - tetranacci.
+  set2ex1: - prim + suma numerelor div cu prim.
+  set2ex1: - fibonacci.
+  
+  lab5:
+  set2ex1 - cauta NERECURSIV: in fis curent si in toti subdirectorii scripy-urile bash si le adauga drept de ex.
+  set2ex2 - cauta RECURSIV: si numara aparitiile fis script, fis mai vechi de 30 zile si directoare.
+  set2ex2prim - cauta RECURSIV: si numara aparitiile fis alias, fis hidden (incep cu .) si directoare.
+  bex4: - citeste nume de utilizatori, apoi afiseaza ultimele 3 conectari (daca exista), altfel eroare.
+  bex5: - citeste, drept parametru, un director: si va arhiva atat fisierele script cat si txt aflate numai in dir.
+
+  lab6: (c)
+  set2ex1: - parametrii -> numele a 2 fis si 2 caract. Functia va copia continutul primului fis in cel de-al doilea prin inlocuirea caracterului 1 cu cel de-al doilea.
+  set2ex2 - comanda "head": + optiunile "-n"/"-c"
+  bex6 - comanda "chmod": + meniu
+
+  lab7: (c)
+  faralacat - "BANCA": se apeleaza executabilul si apoi se adauga (1)ID si (2)suma, apoi se efectueaza diverse operatii depunere/extragere/creare cont.
+
+---  ------  -----  ----  -------  -----  ----  ----  -------  -----  -----  ----  ----  ----  -------  -------  --------  ---------  --- ----  -----
+
+  PART II:
+
+  lab9:(C)+(mmap)
+  set2ex1 - exact cerinta de la /sem6/set2ex1: dar cu mapare. (rezolvare buna)
+  set2ex1VARIANTA - o alta rezolvare.
+  set2ex2 - exact cerinta de la /sem6/set2ex2: dar cu mapare. (rezolvare buna)
+  set2ex2VARIANTA - o alta rezolvare.
+
+--------------------------------------------------------------------------------------------------------------
+
+LAB22:
+  ExDeProba:
+  Select.sh - /etc/passwd: selecteaza si afiseaza toate coloanele delimitate de ":".
+
+  lab4:
+  set1ex2 - CMMDC prin scaderi: se dau 2 nr -> cmmdc(a,b).
+  set1ex2prim - CMMDC prin impartiri: se dau 2 nr -> cmmdc(a,b).
+  set2ex2: - se da n a.i. sa se calculeze RECURSIV 3^0 + 3^2 + ... + 3^n prin 3^k = 3 * 3^k-1.
+
+--------------------------------------------------------------------------------------------------------------
+
+LilPb:
+  ApelareScript: va apela un anumit script.
+  CautareApCuvant: va cauta si va afisa numarul de aparitii a unui cuvant dintr-un fisier.
+  ConverireLitere: face convertia literelor minuscule la majuscule.
+  CountWord: va cauta si va afisa numarul de linii dintr-un fisier.
+  CreareFisier+.sh: creeaza un fisier, ii da permisiune de executie,si afiseaza in ordine cresc a val de pe col 2.
+  Redirectare: redirecteaza rezultatul unui script catre un fisier.
+  StergExtensii: sterg, in mod recursiv (-r), fisierele cu extensia ".123".
+
+--------------------------------------------------------------------------------------------------------------
+
+
+CopiereFisiereDeLaDir1LaDir2:
+  script.sh: - transfera din dir sursa in dir destinatie fisierele cu extensie gasita in al
+  3-lea parametru.
+
+--------------------------------------------------------------------------------------------------------------
+
+ExamenSO - Olaru Marius-Alexandru:
+  
+--------------------------------------------------------------------------------------------------------------

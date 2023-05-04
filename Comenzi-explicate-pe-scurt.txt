@@ -1,0 +1,140 @@
+	Helpful Commands:
+
+help     - displays information about shell built-in commands
+whatis   - display one-line manual page descriptions
+man      - an interface to the system reference manuals
+apropos  - search the manual page names and descriptions
+which    - locate a command
+whereis  - locate the binary, source, and manual page files for a command
+info     - read Info documents
+
+	Commands To View File Content:
+
+cat   - concatenate files and print on the standard output
+tac   - concatenate and print files in reverse
+head  - output the first part of files
+tail  - output the last part of files
+less  - opposite of more
+more  - file perusal filter for crt viewing
+echo  - display a line of text
+gnome-text-editor  - text editor (open file)
+
+	Commands To Compile/ Debug:
+
+gcc, g++ - GNU project C and C++ compiler  (gcc -Wall)
+gdb - The GNU Debugger
+
+	Commands To Manipulate Directories:
+
+cd    - change directory command
+ls    - list directory contents
+pwd   - print name of current/working directory
+mkdir - make directories/ create a directory
+rmdir - remove empty directories/ delete a directory
+
+	Commands For Working with files:
+
+find  - search for files in a directory hierarchy
+cut   - remove sections from each line of files
+grep, egrep, fgrep, rgrep - print lines that match patterns
+stat  - display file or file system status
+file  - determine file type
+touch - create a file without any content/ change file timestamps
+rm    - remove files or directories
+cp    - copy files and directories
+mv    - move (rename) files
+ln    - make links between files
+truncate - shrink or extend the size of a file to the specified size
+sort  - sort lines of text files
+wc    - print newline, word, and byte counts for each file
+tr    - translate or delete characters
+uniq  - report or omit repeated lines
+rev   - reverse lines characterwise
+chmod - change file mode bits
+chown - change file owner and group
+chgrp - change group ownership
+join  - join lines of two files on a common field
+kill  - send a signal to a process, usually related to stopping the process.
+mount - mount a filesystem
+umount - unmount a filesystem
+du    - estimate file space usage
+sum   - checksum and count the blocks in a file
+md5sum - compute and check MD5 message digest
+sha1sum - compute and check SHA1 message digest
+sha256sum - compute and check SHA256 message digest
+cmp    - compare two files byte by byte
+comm   - compare two sorted files line by line
+diff   - compare files line by line
+lp     - print files
+
+	Commands To Check Users Informations:
+
+id     - print real and effective user and group IDs
+groups - print the groups a user is in
+users  - print the user names of users currently logged in to the current host
+who    - show who is logged on
+w      - show who is logged on and what they are doing
+finger - user information lookup program ( doesn't exist on Ubuntu)
+last, lastb - show a listing of last logged in users
+whoami - print effective userid
+
+	Idk yet:
+
+tty    - print the file name of the terminal connected to standard input
+stty   - change and print terminal line settings
+cal, ncal — displays a calendar and the date of Easter
+date   - print or set the system date and time
+uptime - Tell how long the system has been running
+login  - begin session on the system
+telnet - user interface to the TELNET protocol
+ssh    - OpenSSH remote login client
+passwd - change user password
+chsh   - change login shell
+chage  - change user password expiry information
+write  - send a message to another user
+mesg   - display (or do not display) messages from other users
+nslookup - query Internet name servers interactively
+tee    - read from standard input and write to standard output and files
+xargs  - build and execute command lines from standard input
+df     - report file system disk space usage
+ftp    - Internet file transfer program
+nice   - run a program with modified scheduling priority
+time   - run programs and summarize system resource usage
+printf - format and print data
+
+	Commands For System Info:
+
+uname - print system information
+hostnamectl - Control the system hostname
+hostname - show or set the system's host name
+domainname - show or set the system's NIS/YP domain name
+ypdomainname - show or set the system's NIS/YP domain name
+nisdomainname - show or set the system's NIS/YP domain name
+dnsdomainname - show the system's DNS domain name
+lsb_release - print distribution-specific information
+
+	Patterns:
+
+awk, mawk  - pattern scanning and text processing language
+sed   - stream editor for filtering and transforming text
+perl  - The Perl 5 language interpreter
+
+	Commands For Compression / Archiving / Encoding:
+
+tar   - an archiving utility
+gzip, gunzip, zcat - compress or expand files
+
+	Commands For Processes:
+
+top    - display Linux processes
+pstree - display a tree of processes
+ps     - report a snapshot of the current processes
+
+
+
+
+
+
+
+
+

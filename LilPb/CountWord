@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat Test.txt | wc -l
+
+cat Test.txt
